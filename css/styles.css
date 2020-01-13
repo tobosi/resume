@@ -1,0 +1,111 @@
+html, body {
+    font-size: 20px;
+    font-size: 100%;
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: #fff;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+#portfolio-wrapper-header {
+    height: 100vh;
+    background: #444;
+}
+
+#portfolio-wrapper-header #content-wrapper {
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    height: 100vh; 
+    width: 100%;
+    transform: translate(-50%, -0%);
+}
+
+#portfolio-wrapper-header #content-wrapper #content {
+    position: absolute; 
+    z-index: 10; 
+    top: 50%; 
+    left: 10%; 
+    transform: translate(-10%, -50%); 
+    font-family: 'Cute Font', cursive
+}
+
+#portfolio-wrapper-header #content-wrapper #content #intro-text {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 400%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #f8f8f8;
+}
+
+#portfolio-wrapper-header #explore-profile {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    padding: 10px 25px;
+    background: rgba(0, 122, 204, 0.8);
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-size: 100%;
+    text-transform: uppercase;
+    box-shadow: 4px 3px 0px 0px #333;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+#portfolio-wrapper-header #content-wrapper #content  #content-text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120%;
+    display: inline;
+    padding: 5px;
+    color: #fff;
+}
+
+/*About*/
+#portfolio-wrapper-about {
+    background: #444; 
+}
+
+#portfolio-wrapper-about #about-text {
+    display: flex; 
+    margin-top: 20px; 
+    text-align: justify"
+}
+
+/*Experience*/
+
+#portfolio-wrapper-work-experience {
+    color: #333;
+}
+
+#portfolio-wrapper-work-experience .location, #portfolio-wrapper-work-experience .date {
+    display: block;
+}
+
+.sections {
+    position: relative; 
+    padding: 100px 0px; 
+    color: #f8f8f8
+}
+
+.section-header {
+    font-family: 'Bebas Neue', cursive;
+}
+@media only screen and (max-width: 877px) {
+    #portfolio-wrapper-header #content #intro-text {
+        font-size: 500%;
+    }
+}
+
