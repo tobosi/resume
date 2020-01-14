@@ -31,6 +31,7 @@ header nav ul li:first-child {
 header nav ul li:first-child > a {
     color: #ff5252!important;
 }
+
 header nav ul li a {
     color: #71E4FE;
     padding: 18px 15px;
