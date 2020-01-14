@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#portfolio-wrapper-header').particleground({
       dotColor: '#888',
-      lineColor: '#B1B1B1'
+      lineColor: '#333'
     });
 
     //$('#portfolio-wrapper-header').particleground('pause');

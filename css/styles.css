@@ -4,19 +4,53 @@ html, body {
 }
 
 header {
-    position: fixed;
-    height: 80px;
     width: 100%;
-    background: #fff;
+    padding: 0;
+    margin: 0;
+    background: #444;
 }
 
-header nav ul li {
-    display: inline-block;
+header nav {
+    margin: 0 auto;
+    width: 60%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0 !important;
+}
+
+header nav ul li:first-child {
+    border-bottom: 4px solid #f8f8f8;
+}
+
+header nav ul li:first-child > a {
+    color: #ff5252!important;
+}
+header nav ul li a {
+    color: #71E4FE;
+    padding: 18px 15px;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 110%;
+    display: block;
 }
 
 #portfolio-wrapper-header {
     height: 100vh;
     background: #444;
+}
+
+#portfolio-wrapper-header #avatar {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    height: 45%;
+    transform: translate(-35%, -100%);
 }
 
 #portfolio-wrapper-header #content-wrapper {
@@ -70,7 +104,7 @@ header nav ul li {
     font-size: 120%;
     display: inline;
     padding: 5px;
-    color: #fff;
+    color: #ff5252!important;
 }
 
 /*About*/
