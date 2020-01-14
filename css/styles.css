@@ -7,7 +7,7 @@ header {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: #444;
+    background: #3D3D3D;
 }
 
 header nav {
@@ -43,7 +43,7 @@ header nav ul li a {
 
 #portfolio-wrapper-header {
     height: 100vh;
-    background: #444;
+    background: #3D3D3D;
 }
 
 #portfolio-wrapper-header #avatar {
@@ -110,7 +110,7 @@ header nav ul li a {
 
 /*About*/
 #portfolio-wrapper-about {
-    background: #444; 
+    background: #3D3D3D; 
 }
 
 #portfolio-wrapper-about #about-text {
